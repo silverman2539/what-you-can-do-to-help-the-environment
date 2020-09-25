@@ -1,0 +1,54 @@
+body
+{
+	background-color: lavenderblush;
+	color: #9c8080;
+	border-color: lightcoral;
+	text-align: center;
+	border-style: solid;
+	padding: 25;
+	font-size: 30;
+}
+
+hr
+{
+	border-color: #b88080;
+	border-bottom: none;
+}
+
+div
+{
+	width: 30%;
+	border-style: solid;
+	border-color: #9c8080;
+	display: inline-block;
+	border-width: 2px;
+	font-size: 25;
+	background-color: #f2e5e9;
+	height: 85%;
+}
+#garden
+{
+	background-image: url("garden.jpg");
+}
+#reuse
+{
+	background-image: url("reuse.jpg");
+}
+#trash
+{
+	background-image: url("trash.jpg");
+}
+
+button
+{
+	border-style: solid;
+	border-color: lightcoral;
+	background-color: lavenderblush;
+	color: lightcoral;
+	font-size: 20;
+}
+button:hover
+{
+	transition: 0.5s;
+	opacity: 50%;
+}
